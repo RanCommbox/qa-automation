@@ -1,6 +1,6 @@
 
 class Config:
-    SERVER_URL = "https://manage.bumpyardpro.com/"
-    ADMIN_USER = "ransanity@mailinator.com"
-    ADMIN_PASSWORD = "Aa123456!"
+    SERVER_URL = "https://bumpyard.commboxtest.com"
+    ADMIN_USER = "ran.ya@commbox.io"
+    ADMIN_PASSWORD = "Rr123456!"
     ADMIN_BRAND = "BUMPYARD"

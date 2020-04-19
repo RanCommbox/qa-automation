@@ -72,5 +72,5 @@ python3 -m pytest  -s -v regression_test_suite_basic_fabric.py --html=report_sum
 
 
 ## License
-The test run on - 2.1.1 version - 
-[Link to NVC](https://nvc-auto.serveo.net/)
+The test run on - 8 version - 
+[Link to CommboxTest](https://bumpyard.commboxtest.com/)

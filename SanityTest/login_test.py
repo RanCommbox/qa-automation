@@ -1,6 +1,6 @@
-from helper_base import HelperBase
-from test_name import TestNames
-from config import Config
+from SanityTest.helper_base import HelperBase
+from SanityTest.test_name import TestNames
+from SanityTest.config import Config
 
 
 def loginfirsttest():

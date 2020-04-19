@@ -1,9 +1,9 @@
 import unittest
 from unittest import TestLoader, TestSuite, TextTestRunner
 
-import api_sanity_test
-from login_test import loginfirsttest
-from api_sanity_test import ApiTesting
+import SanityTest.api_sanity_test
+from SanityTest.login_test import loginfirsttest
+from SanityTest.api_sanity_test import ApiTesting
 
 #suite = unittest.TestLoader().loadTestsFromTestCase(test_get_state()
 #unittest.TextTestRunner(verbosity=2).run(suite)

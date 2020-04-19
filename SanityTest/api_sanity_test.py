@@ -1,8 +1,8 @@
 import requests
 import unittest
 
-class ApiTesting(unittest.TestCase):
 
+class ApiTesting(unittest.TestCase):
 
     def test_get_state(self):
         response = requests.get("https://api.commboxtest.com/core/systemstatus?"

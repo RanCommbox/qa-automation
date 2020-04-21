@@ -5,8 +5,10 @@ Install Python 3.7 or above - [Link to downlaod python3.7](https://www.python.or
 
 
 ## Regression Testing
-By Ran Yacobov, Head of QA Automation.
-In this guide, I will describe how to run the tests from a remote computer.
+By Ran Yacobov, Head of QA Automation, CommBox.
+In this guide, I will describe how to run the tests from a remote PC.
+This automation project will be the starting point to the next level in order to get stable and secure system.
+
 
 
 ## CommBox-automation-tests
@@ -59,13 +61,13 @@ Download pytest:
 2.To run the tests please type:
 
 Run with browser:
-pytest  -s -v regression_test_suite_basic_fabric.py --html=report_summary.html
+pytest  python -m unittest discover --html=report_summary.html
 
 Run without browser(adding --is_headless argument):
-pytest  -s -v regression_test_suite_basic_fabric.py --html=report_summary.html --is_headless
+pytest  -s -v SanityTest\test_suite.py --html=report_summary.html --is_headless
 
 *If you are getting py.test: command not found, please run the tests in the following way:
-python3 -m pytest  -s -v regression_test_suite_basic_fabric.py --html=report_summary.html 
+pytest  -s -v SanityTest\test_suite.py--html=report_summary.html 
 
 
 *note that in --html argument can be any name, it is the name of the html report

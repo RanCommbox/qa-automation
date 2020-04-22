@@ -17,6 +17,7 @@ class Driver():
                 chrome_options.add_argument("--no-sandbox")
                 chrome_options.add_argument("disable-gpu")
                 chrome_options.add_argument("--window-size=1920,1080")
+                options.add_argument('headless')
                 self.driver = webdriver.Chrome(driver_location, options=chrome_options)
             else:
                 self.driver = webdriver.Chrome(driver_location)

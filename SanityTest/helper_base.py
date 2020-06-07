@@ -5,14 +5,15 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from pynput.keyboard import Key
-from shared_elements import SharedElements
+from SanityTest.shared_elements import SharedElements
 from selenium.webdriver import ActionChains
-from select_by import SelectBy
-from action import Action
-from driver_instanse import Driver
+from SanityTest.select_by import SelectBy
+from SanityTest.action import Action
+from SanityTest.driver_instanse import Driver
 from selenium.common.exceptions import NoSuchElementException
 
-from test_name import TestNames
+from SanityTest.test_name import TestNames
+
 
 
 class HelperBase:

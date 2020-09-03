@@ -6,3 +6,4 @@ class SelectBy(Enum):
     XPATH = 2
     CSS_SELECTOR = 3
     CLASS_NAME = 4
+    TAG_NAME = 5
